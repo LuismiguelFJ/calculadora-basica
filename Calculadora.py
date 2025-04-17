@@ -13,4 +13,11 @@ def divisao(a, b):
     return a / b
 
 def potencia(base, expoente):
+<<<<<<< HEAD
     return base ** expoente
+=======
+    resultado = 1
+    for _ in ranger(expoente):
+        resultado *= base
+    return resultado
+>>>>>>> feature-potencia-loop
